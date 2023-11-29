@@ -8,17 +8,17 @@ use where python to find path to the python
 # command
 
 ```
-    "python path to 3.12" -m pip install pipenv
-    pipenv python "path to python 3.12" install
-    pipenv shell
-    pipenv install
+"python path to 3.12" -m pip install pipenv
+pipenv python "path to python 3.12" install
+pipenv shell
+pipenv install
 ```
 
 
 # running the fastapi
 
 ```
-    uvicorn app.main:app --reload
+uvicorn app.main:app --reload
 ```
 
 

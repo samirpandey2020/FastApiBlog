@@ -23,7 +23,7 @@ use where python to find path to the python
 
 
 # dir structure
-app
+```app
  -router
     -post
     -user
@@ -33,3 +33,4 @@ app
 database
 models
 main
+```

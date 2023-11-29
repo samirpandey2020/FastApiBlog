@@ -1,11 +1,11 @@
 # FastApiBlog
 
-#installing pipenv
+# installing pipenv
 use: python 3.12
 use where python to find path to the python
 
 
-#command
+# command
 
 ```
     "python path to 3.12" -m pip install pipenv
@@ -15,13 +15,14 @@ use where python to find path to the python
 ```
 
 
-#running the fastapi
+# running the fastapi
+
 ```
     uvicorn app.main:app --reload
 ```
 
 
-#dir structure
+# dir structure
 app
  -router
     -post
